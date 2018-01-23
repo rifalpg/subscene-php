@@ -1,0 +1,25 @@
+{
+  "name": "rifalpg/subscene-php",
+  "description": "Subscene Parser PHP",
+  "homepage": "https://github.com/rifalpg/subscene-php",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rifal Pramadita",
+      "email": "dev.rifalpramadita@gmail.com",
+      "homepage": "https://rifalpg.github.io",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Rifalpg\\Parser\\": "src/"
+    }
+  },
+  "require": {
+    "symfony/dom-crawler": "^3.3",
+    "symfony/css-selector": "^3.3"
+  },
+  "minimum-stability": "stable"
+}
